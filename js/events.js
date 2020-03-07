@@ -16,6 +16,6 @@ function frameIt(){
   $("img").on("load", function(){ $("img").addClass("tasty")})
 }
 
-function pressIt ){
+function pressIt(){
   $("img").on("load", function(){ $("img").addClass("tasty")})
 }
