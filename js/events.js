@@ -20,7 +20,8 @@ function frameIt(){
 function pressIt(){
   $("input#typing").on("keydown", function(){
       if(){
-
+        
       }
+      return;
   })
 }
