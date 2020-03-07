@@ -29,5 +29,5 @@ function pressIt(){
 }
 
 function submitIt(){
-  $("img").on("load", function(){ $("img").addClass("tasty")})
+  $("form").on("submit", function(){ $("img").addClass("tasty")})
 }
