@@ -18,5 +18,5 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("input#typing").on("load", function(){ $("img").addClass("tasty")})
+  $("input#typing").on("keydown", function(){ $("img").addClass("tasty")})
 }
