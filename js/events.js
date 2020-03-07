@@ -8,5 +8,5 @@ $(document).ready(function(){
 
 
 function getIt(){
-  $("p").click()
+  $("p").on("click", function(){ return alert("Hey!")})
 }
