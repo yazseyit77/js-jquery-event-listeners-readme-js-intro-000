@@ -13,5 +13,5 @@ function getIt(){
 }
 
 function frameIt(){
-  $("p").on("load", function(){ return alert("Hey!")})
+  $("p").on("load", function(){ $("img").append()})
 }
