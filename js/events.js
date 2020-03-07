@@ -13,5 +13,5 @@ function getIt(){
 }
 
 function frameIt(){
-  $("p").on("load", function(){ $("img").addClass("#tasty")})
+  $("img").on("load", function(){ $("img").addClass("#tasty")})
 }
